@@ -95,5 +95,10 @@ public class Tourist implements Serializable {
 		this.edDate = edDate;
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
 }
  
